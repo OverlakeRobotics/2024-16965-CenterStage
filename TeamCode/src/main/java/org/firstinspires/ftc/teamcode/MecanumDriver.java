@@ -55,10 +55,10 @@ public class MecanumDriver extends OpMode {
 
     @Override
     public void init() {
-        DcMotor backLeft = hardwareMap.get(DcMotor.class, "BACKLEFT");
-        DcMotor backRight = hardwareMap.get(DcMotor.class, "BACKRIGHT");
-        DcMotor frontLeft = hardwareMap.get(DcMotor.class, "FRONTLEFT");
-        DcMotor frontRight = hardwareMap.get(DcMotor.class, "FRONTRIGHT");
+        DcMotor backLeft = hardwareMap.get(DcMotor.class, "back_left");
+        DcMotor backRight = hardwareMap.get(DcMotor.class, "back_right");
+        DcMotor frontLeft = hardwareMap.get(DcMotor.class, "front_left");
+        DcMotor frontRight = hardwareMap.get(DcMotor.class, "front_right");
 
         backLeft.setDirection(DcMotor.Direction.FORWARD);
         backRight.setDirection(DcMotor.Direction.REVERSE);
